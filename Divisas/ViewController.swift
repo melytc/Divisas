@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    // MARK: Métodos de Acción
+    // MARK: - Métodos de Acción
     @IBAction func calcular(sender: UIButton) {
         let tipoCambio = Double(tfTipoCambio.text!)
         let pesos = Double(tfPesos.text!)
